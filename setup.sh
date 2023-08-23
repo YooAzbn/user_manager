@@ -86,6 +86,8 @@ cat <<EOF> /etc/systemd/system/autosett.service
 Description=autosetting
 Documentation=https://www.snapchat.com/add/yoo_prasad?share_id=UowCmK-eEjM&locale=en-PL
 
+sudo timedatectl set-timezone Asia/Colombo
+
 [Service]
 Type=oneshot
 ExecStart=/bin/bash /etc/set.sh
@@ -135,7 +137,7 @@ echo "   - OHP OpenVPN             : 8383"  | tee -a log-install.txt
 echo "   - Tr Go                   : 2087"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
-echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
+echo "   - Timezone                : Asia/Colombo (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
