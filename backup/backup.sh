@@ -67,4 +67,4 @@ Link Backup   : $link
 Tanggal       : $date
 ==================================
 "
-echo "Silahkan cek Kotak Masuk $email"
+echo "cheak $email"
