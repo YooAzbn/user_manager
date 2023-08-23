@@ -19,7 +19,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/YooAzbn/user_manager/tree/main/ssh"
+akbarvpn="raw.githubusercontent.com/YooAzbn/user_manager/main/ssh"
 # Link Hosting Kalian Untuk Sstp
 akbarvpnn="raw.githubusercontent.com/YooAzbn/user_manager/tree/main/sstp"
 # Link Hosting Kalian Untuk Ssr
@@ -148,7 +148,3 @@ echo "   - Auto Delete Expired Account" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
-echo " Reboot 15 Sec"
-sleep 15
-rm -f setup.sh
-reboot
