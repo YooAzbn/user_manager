@@ -18,14 +18,14 @@ date=$(date +"%Y-%m-%d")
 clear
 email=$(cat /home/email)
 if [[ "$email" = "" ]]; then
-echo "Masukkan Email Untuk Menerima Backup"
+echo "Please give email"
 read -rp "Email : " -e email
 cat <<EOF>>/home/email
 $email
 EOF
 fi
 clear
-echo "Mohon Menunggu , Proses Backup sedang berlangsung !!"
+echo "Backup Sent !!"
 rm -rf /root/backup
 mkdir /root/backup
 cp /etc/passwd backup/
