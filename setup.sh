@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/YooAzbn/user_manager/main/ssh"
+akbarvpn="raw.githubusercontent.com/YooAzbn/usermanager/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/YooAzbn/user_manager/main/sstp"
+akbarvpnn="raw.githubusercontent.com/YooAzbn/usermanager/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/YooAzbn/user_manager/main/ssr"
+akbarvpnnn="raw.githubusercontent.com/YooAzbn/usermanager/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/YooAzbn/user_manager/main/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/YooAzbn/usermanager/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/YooAzbn/user_manager/main/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/YooAzbn/usermanager/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/YooAzbn/user_manager/main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/YooAzbn/usermanager/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/YooAzbn/user_manager/main/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/YooAzbn/usermanager/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/YooAzbn/user_manager/main/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/YooAzbn/usermanager/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/YooAzbn/user_manager/main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/YooAzbn/usermanager/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/YooAzbn/user_manager/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/YooAzbn/usermanager/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
